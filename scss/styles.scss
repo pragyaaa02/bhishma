@@ -1,0 +1,14 @@
+// external
+@import "./external/libraries";
+@import "./external/variables";
+// internal>base
+@import "./internal/base/base";
+@import "./internal/base/fonts";
+// inernal>componensts
+@import "./internal/components/footer";
+@import "./internal/components/navigation";
+// internal>pages>about
+// @import "./internal/pages/about/";
+@import "./internal/pages/home/banner";
+@import"./internal/pages/home/academy";
+@import"./internal/pages/home/aboutus";

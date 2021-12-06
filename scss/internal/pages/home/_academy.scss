@@ -1,0 +1,117 @@
+.second-banner-academy-bhishma {
+    width: 100%;
+    position: relative;
+}
+.second-banner-content {
+    position: absolute;
+    top: 100%;
+    padding-left: 200px;
+}
+.Academic_advantage {
+    color: white;
+    @include regular();
+    font-size: 28px;
+    text-align: center;
+}
+.academic_advantage_para {
+    color: white;
+    @include regular();
+    width: 662px;
+    height: 135px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 40px;
+}
+// gallery
+.academy-gallery {
+    padding-top: 100px;
+}
+.academy-bhishma-image-gallery {
+    width: 457px;
+    position: relative;
+}
+.galler-heading {
+    padding-top: 100px;
+    font-size: 28px;
+    @include bold();
+    color: #0d8bf6;
+    position: relative;
+}
+.gallery-para-one {
+    width: 448px;
+    height: 99px;
+    font-size: 14px;
+    color: #000000;
+    @include regular();
+    font-weight: bold;
+    padding-top: 20px;
+}
+.gallery-para-two {
+    width: 448px;
+    height: 99px;
+    font-size: 14px;
+    color: #000000;
+    @include regular();
+    font-weight: bold;
+}
+.vectors {
+    position: absolute;
+}
+.vectors-even {
+    position: absolute;
+}
+.vector-one {
+    width: 100px;
+    top: 10%;
+    margin-left: 79px;
+}
+.vector-two {
+    width: 100px;
+    margin-top: 85px;
+    margin-left: -105px;
+}
+.design-name {
+    position: absolute;
+    width: 223px;
+    height: 43px;
+    @include bold();
+    font-size: 28px;
+    color: #0d8bf6;
+    mix-blend-mode: screen;
+    top: 34%;
+    left: 9%;
+}
+.design-name-odd {
+    position: absolute;
+    width: 223px;
+    height: 43px;
+    @include bold();
+    font-size: 40px;
+    color: #0d8bf6;
+    mix-blend-mode: screen;
+    top: 37%;
+    left: 9%;
+    line-height: 30px;
+}
+.vector-one-even {
+    width: 100px;
+    top: 10%;
+    margin-left: 643px;
+}
+.vector-two-even {
+    width: 100px;
+    margin-top: 85px;
+    margin-left: -104px;
+}
+.design-name-even {
+    position: absolute;
+    width: 223px;
+    height: 43px;
+    @include bold();
+    font-size: 38px;
+    color: #0d8bf6;
+    mix-blend-mode: screen;
+    top: 43%;
+    right: 29%;
+    line-height: 30px;
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'raleway-bold'; 
+    src: url('./../../../font/Raleway-Bold.woff2') format("woff2"),
+    url('./../../../font/Raleway-Bold.woff') format("woff");
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: 'raleway-normal'; 
+    src: url('./../../../font/Raleway-Regular.woff2') format("woff2"),
+    url('./../../../font/Raleway-Regular.woff') format("woff");
+    font-weight: 400;
+  }
+// mixins
+@mixin bold {
+    font-family: 'raleway-bold'; 
+    font-weight: 800;
+}
+@mixin regular {
+    font-family: 'raleway-normal'; 
+    font-weight: 400;
+}
